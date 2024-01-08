@@ -81,17 +81,19 @@ main {
     background-image: url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    padding: 150px 120px;
+    background-size: cover;
+    border-radius: 16px;
+    
 
 
 }
 
 .party-container {
-    
+    padding: 60px 120px;
     display: flex;
     justify-content: space-between;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.548), rgba(128, 128, 128, 0.196));
+    border-radius: 16px;
 
 }
 
