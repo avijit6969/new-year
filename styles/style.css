@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* banner-style */
+.banner-section {
+    max-width: 1140px;
+    margin: 50px auto 20px;
+    background-image: url(../images/Banner\ Image.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.banner-content {
+    text-align: center;
+    padding: 150px 250px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.516), rgba(128, 128, 128, 0.288));
+    border-radius: 16px;
+}
+
+.banner-intro {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* banner-style */
+/* offer */
+.category-section {
+    margin: 120px 0;
+    text-align: center;
+}
+
+.category-section>h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.category-deal {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.category-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.welcome-section {
+    max-width: 1340px;
+    margin: 250px auto 120px;
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
