@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* banner-style */
 .banner-section {
     max-width: 1140px;
@@ -37,7 +42,7 @@
 }
 
 /* banner-style */
-/* offer */
+/* category-style */
 .category-section {
     margin: 120px 0;
     text-align: center;
@@ -67,11 +72,54 @@
     margin-bottom: 30px;
 }
 
-.welcome-section {
-    max-width: 1340px;
-    margin: 250px auto 120px;
+/* category-style */
+
+/* welcome-party-style */
+.welcome-party {
+
+    margin: 120px 0;
     background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    border-radius: 20px;
+    background-size: contain;
+    padding: 150px 120px;
+
+
 }
+
+.party-container {
+    
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.548), rgba(128, 128, 128, 0.196));
+
+}
+
+.welcome-party-content {
+    width: 500px;
+
+}
+
+.party-container>img {
+    width: 250px;
+
+}
+
+.welcome-party-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.welcome-party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+
+/* welcome-party-style */
