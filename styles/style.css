@@ -125,10 +125,6 @@ main {
 }
 
 /* welcome-party-style */
-/* place & date */
-
-
-/* place & date */
 /* party-time */
 .party-time-date {
     margin: 120px 0;
@@ -142,7 +138,7 @@ main {
 
 }
 
-.party-time-container h2{
+.party-time-container h2 {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -165,12 +161,135 @@ main {
     color: #F00;
 }
 
-button {
-    /* margin: 50px 80px; */
+/* place & date */
+
+
+/* coming-soon */
+
+.coming-soon {
+    margin: 120px 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.best-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 500;
+
+}
+
+.coming-soon-container {
+    margin-top: 80px;
+}
+
+.coming-soon-container>h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.coming-soon-container>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.coming-soon-img {
+    border: 13px solid #f00;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.coming-soon-img pic {
+    width: 320px;
+    height: 320px;
+}
+
+.coming-soon-2024 {
+    margin-top: 90px;
+}
+
+.coming-soon-2024 h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+}
+
+.coming-soon-2024 p {
+    margin-bottom: 15px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-weight: 400;
+}
+
+
+/* coming-soon */
+/* portfolio-section */
+
+.our-portfolio {
+    margin: 120px 0;
+
+}
+
+.portfolio-content {
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+.portfolio-content h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.img-row>img {
+    width: 370px;
+    opacity: 1;
+}
+
+.img-row>img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.img-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 15px;
+
 }
 
 
 
 
 
-/* party-time */
+
+
+
+
+
+
+
+/* portfolio-section */
