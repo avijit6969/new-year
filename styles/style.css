@@ -281,6 +281,47 @@ main {
 
 }
 
+/* portfolio-section */
+/* subscribe-section */
+.subscribe {
+    margin: 120px 0;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 200px;
+    text-align: center;
+    border-radius: 16px;
+
+}
+
+.sub-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.sub-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.sub-field input{
+    padding: 12px 50px;
+    position: relative;
+    border: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+
+
+
+/* subscribe-section */
+
 
 
 
