@@ -8,7 +8,16 @@ main {
     margin: 0 auto;
 }
 
+.primary-btn {
+    background-color: #F00;
+    color: aliceblue;
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 7px;
+}
+
 /* banner-style */
+
 .banner-section {
     max-width: 1140px;
     margin: 50px auto 20px;
@@ -42,6 +51,8 @@ main {
 }
 
 /* banner-style */
+
+
 /* category-style */
 .category-section {
     margin: 120px 0;
@@ -73,6 +84,7 @@ main {
 }
 
 /* category-style */
+
 
 /* welcome-party-style */
 .welcome-party {
@@ -125,7 +137,10 @@ main {
 }
 
 /* welcome-party-style */
-/* party-time */
+
+
+/* place & date */
+
 .party-time-date {
     margin: 120px 0;
 }
@@ -145,7 +160,10 @@ main {
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
+}
 
+#btn-id {
+    margin-top: 30px;
 }
 
 .party-place>span {
@@ -229,6 +247,8 @@ main {
 
 
 /* coming-soon */
+
+
 /* portfolio-section */
 
 .our-portfolio {
@@ -282,6 +302,8 @@ main {
 }
 
 /* portfolio-section */
+
+
 /* subscribe-section */
 .subscribe {
     margin: 120px 0;
@@ -308,7 +330,13 @@ main {
     margin-bottom: 20px;
 
 }
-.sub-field input{
+
+.sub-field {
+    width: 580px;
+    margin-top: 30px;
+}
+
+.sub-field input {
     padding: 12px 50px;
     position: relative;
     border: 0;
@@ -316,21 +344,58 @@ main {
     border-bottom-left-radius: 20px;
 }
 
+.subscrib-btn {
+    padding: 12px 40px;
+    border: 0;
+    position: absolute;
+    background-color: #F00;
+    color: #FFF;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 
-
-
+}
 
 /* subscribe-section */
 
 
+/* footer-section */
+footer {
+    background-color: #070211;
+    color: #FFF;
+    padding: 120px 150px;
+    margin-top: 120px;
 
+}
 
+.address-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
+.address-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
 
+.address {
+    width: 300px;
+}
+.contact > p > i{
+margin-right: 6px;
+}
 
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
 
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
 
-
-
-
-/* portfolio-section */
+/* footer-section */ 
