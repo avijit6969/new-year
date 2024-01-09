@@ -83,7 +83,7 @@ main {
     background-position: center;
     background-size: cover;
     border-radius: 16px;
-    
+
 
 
 }
@@ -121,7 +121,56 @@ main {
     font-family: Inter;
     font-weight: 400;
     margin-bottom: 20px;
-    
+
 }
 
 /* welcome-party-style */
+/* place & date */
+
+
+/* place & date */
+/* party-time */
+.party-time-date {
+    margin: 120px 0;
+}
+
+.party-time-container {
+    padding: 100px 200px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+
+}
+
+.party-time-container h2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+
+}
+
+.party-place>span {
+    color: #F00;
+
+}
+
+.party-date>span {
+    color: #F00;
+}
+
+.party-time>span {
+    color: #F00;
+}
+
+button {
+    /* margin: 50px 80px; */
+}
+
+
+
+
+
+/* party-time */
